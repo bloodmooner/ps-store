@@ -1,14 +1,16 @@
 @import 'libs/bootstrap-reboot.min';
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600;700;800&display=swap');
 
 * {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     margin: 0;
     padding: 0;
 }
 
 ul, ol {
     list-style-type: none;
+    padding: 0;
+    margin: 0;
 }
 
 .container {
@@ -21,4 +23,33 @@ ul, ol {
 // ? should we rename this?
 // * test
 
+
+
+// * index page
 @import 'blocks/label/label';
+@import 'blocks/label/__logo/label__logo';
+
+@import 'blocks/header/header';
+@import 'blocks/header/__avatar/header__avatar';
+@import 'blocks/header/__favourite/header__favourite';
+@import 'blocks/header/__cart/header__cart';
+@import 'blocks/header/__logo/header__logo';
+@import 'blocks/header/__logo-img/header__logo-img';
+@import 'blocks/header/__navigation/header__navigation';
+@import 'blocks/header/__search-form/header__search-form';
+@import 'blocks/header/__search-input/header__search-input';
+@import 'blocks/header/__search-label/header__search-label';
+@import 'blocks/header/__wrapper/header__wrapper';
+
+@import 'blocks/menu/menu';
+@import 'blocks/menu/__list-item/menu__list-item';
+@import 'blocks/menu/__list-link/menu__list-link';
+@import 'blocks/menu/__list/menu__list';
+
+@import 'blocks/promo/promo';
+
+@import 'blocks/tabs/tabs';
+@import 'blocks/tabs/__games-item/tabs__games-item';
+@import 'blocks/tabs/__games-item/_active/tabs__games-item_active';
+@import 'blocks/tabs/__games/tabs__games';
+@import 'blocks/tabs/__wrapper/tabs__wrapper';
