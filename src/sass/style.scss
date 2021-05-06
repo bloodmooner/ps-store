@@ -53,3 +53,18 @@ ul, ol {
 @import 'blocks/tabs/__games-item/_active/tabs__games-item_active';
 @import 'blocks/tabs/__games/tabs__games';
 @import 'blocks/tabs/__wrapper/tabs__wrapper';
+
+@import 'blocks/slider/slider';
+@import 'blocks/slider/__item/slider__item';
+@import 'blocks/slider/__logo/slider__logo';
+@import 'blocks/slider/__img/slider__img';
+@import 'blocks/slider/__btn/slider__btn';
+@import 'blocks/slider/__content/slider__content';
+
+@import 'blocks/section-caption/section-caption';
+@import 'blocks/section-caption/__title/section-caption__title';
+@import 'blocks/section-caption/__btn/section-caption__btn';
+
+@import 'blocks/trending/trending';
+@import 'blocks/trending/__wrapper/trending__wrapper';
+@import 'blocks/trending/__item/trending__item';
