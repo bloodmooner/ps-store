@@ -1,0 +1,15 @@
+.sales {
+    &__studio-caption_right {
+        font-style: normal;
+        font-weight: 800;
+        font-size: 18px;
+        line-height: 25px;
+        color: #FFCB08;
+        text-align: center;
+        text-transform: uppercase;
+        position: absolute;
+        bottom: 25px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}

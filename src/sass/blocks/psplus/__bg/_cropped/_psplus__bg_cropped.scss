@@ -1,0 +1,5 @@
+.psplus {
+    &__bg_cropped {
+        clip-path: polygon(55% 0%, 100% 0, 48% 100%, 0% 100%);
+    }
+}

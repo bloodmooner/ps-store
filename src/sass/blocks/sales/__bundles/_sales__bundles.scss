@@ -1,0 +1,10 @@
+.sales {
+    &__bundles {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: minmax(200px, 1fr);
+        grid-gap: 30px;
+        justify-content: space-between;
+        margin-bottom: 22px;
+    }
+}

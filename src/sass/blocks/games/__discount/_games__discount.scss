@@ -1,0 +1,19 @@
+.games {
+    &__discount {
+        color: #C4C4C4;
+        text-decoration: line-through;
+        position: relative;
+        margin-right: 15px;
+        &::after {
+            content: '';
+            position: absolute;
+            width: 4px;
+            height: 4px;
+            border-radius: 50%;
+            background-color: #C4C4C4;
+            top: 50%;
+            transform: translateY(-50%);
+            right: -9px;
+        }
+    }
+}

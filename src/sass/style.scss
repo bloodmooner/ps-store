@@ -1,5 +1,5 @@
 @import 'libs/bootstrap-reboot.min';
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700;800&display=swap');
 
 * {
     font-family: 'Open Sans', sans-serif;
@@ -18,7 +18,7 @@ ul, ol, p {
     margin: 0 auto;
 }
 
-.new-releases, .coming-soon, .sales, .freetoplay {
+.new-releases, .coming-soon, .sales, .freetoplay, .collections, .genres {
     background: #1f1f1f;
 }
 
@@ -90,6 +90,7 @@ ul, ol, p {
 @import 'blocks/games/__publisher/games__publisher';
 @import 'blocks/games/__info/games__info';
 @import 'blocks/games/__badges/games__badges';
+@import 'blocks/games/__discount/games__discount';
 
 @import 'blocks/psnow/psnow';
 @import 'blocks/psnow/__caption/psnow__caption';
@@ -98,3 +99,34 @@ ul, ol, p {
 @import 'blocks/psnow/__more/psnow__more';
 @import 'blocks/psnow/__text/psnow__text';
 @import 'blocks/psnow/__wrapper/psnow__wrapper';
+
+@import 'blocks/sales/sales';
+@import 'blocks/sales/__bundles/sales__bundles';
+@import 'blocks/sales/__pack-caption/sales__pack-caption';
+@import 'blocks/sales/__pack-cost/sales__pack-cost';
+@import 'blocks/sales/__pack-ends/sales__pack-ends';
+@import 'blocks/sales/__pack/sales__pack';
+@import 'blocks/sales/__studio-caption/sales__studio-caption';
+@import 'blocks/sales/__studio-icon/sales__studio-icon';
+@import 'blocks/sales/__studio/sales__studio';
+@import 'blocks/sales/__studio/_left/sales__studio_left';
+@import 'blocks/sales/__studio/_right/sales__studio_right';
+@import 'blocks/sales/__studio-icon/_left/sales__studio-icon_left';
+@import 'blocks/sales/__studio-icon/_right/sales__studio-icon_right';
+@import 'blocks/sales/__studio-caption/_left/sales__studio-caption_left';
+@import 'blocks/sales/__studio-caption/_right/sales__studio-caption_right';
+@import 'blocks/sales/__studio-content/sales__studio-content';
+@import 'blocks/sales/__studio-content/_left/sales__studio-content_left';
+@import 'blocks/sales/__studio-content/_right/sales__studio-content_right';
+
+@import 'blocks/psplus/psplus';
+@import 'blocks/psplus/__caption/psplus__caption';
+@import 'blocks/psplus/__games/psplus__games';
+@import 'blocks/psplus/__item-icon/psplus__item-icon';
+@import 'blocks/psplus/__item/psplus__item';
+@import 'blocks/psplus/__logo/psplus__logo';
+@import 'blocks/psplus/__more/psplus__more';
+@import 'blocks/psplus/__text/psplus__text';
+@import 'blocks/psplus/__wrapper/psplus__wrapper';
+@import 'blocks/psplus/__bg/psplus__bg';
+@import 'blocks/psplus/__bg/_cropped/psplus__bg_cropped';

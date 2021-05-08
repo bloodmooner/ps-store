@@ -1,0 +1,13 @@
+.sales {
+    &__pack-cost {
+        font-style: normal;
+        font-weight: 600;
+        font-size: 80px;
+        line-height: 109px;
+        color: #0072CE;
+        position: absolute;
+        left: 50%;
+        top: 30px;
+        transform: translateX(-50%);
+    }
+}

@@ -1,0 +1,14 @@
+.sales {
+    &__pack-caption {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 27px;
+        align-items: center;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}
