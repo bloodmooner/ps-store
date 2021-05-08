@@ -1,0 +1,15 @@
+.trending {
+    &__link {
+        font-style: normal;
+        font-weight: 800;
+        font-size: 16px;
+        line-height: 25px;
+        text-align: center;
+        color: #FFFFFF;
+        width: 270px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate3d(-50%, -50%, 0);
+    }
+}

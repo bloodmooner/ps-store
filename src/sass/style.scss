@@ -7,7 +7,7 @@
     padding: 0;
 }
 
-ul, ol {
+ul, ol, p {
     list-style-type: none;
     padding: 0;
     margin: 0;
@@ -16,6 +16,10 @@ ul, ol {
 .container {
     width: 1170px;
     margin: 0 auto;
+}
+
+.new-releases, .coming-soon, .sales, .freetoplay {
+    background: #1f1f1f;
 }
 
 // TODO: Refactor
@@ -68,3 +72,29 @@ ul, ol {
 @import 'blocks/trending/trending';
 @import 'blocks/trending/__wrapper/trending__wrapper';
 @import 'blocks/trending/__item/trending__item';
+@import 'blocks/trending/_link/trending__link';
+@import 'blocks/trending/__buy/trending__buy';
+@import 'blocks/trending/__cart/trending__cart';
+@import 'blocks/trending/__cost/trending__cost';
+
+@import 'blocks/game-badges/game-badges';
+@import 'blocks/game-badges/__item/game-badges__item';
+@import 'blocks/game-badges/_white/game-badges__item_white';
+@import 'blocks/game-badges/_black/game-badges__item_black';
+
+@import 'blocks/games/games';
+@import 'blocks/games/__buy/games__buy';
+@import 'blocks/games/__img/games__img';
+@import 'blocks/games/__item/games__item';
+@import 'blocks/games/__name/games__name';
+@import 'blocks/games/__publisher/games__publisher';
+@import 'blocks/games/__info/games__info';
+@import 'blocks/games/__badges/games__badges';
+
+@import 'blocks/psnow/psnow';
+@import 'blocks/psnow/__caption/psnow__caption';
+@import 'blocks/psnow/__img/psnow__img';
+@import 'blocks/psnow/__logo/psnow__logo';
+@import 'blocks/psnow/__more/psnow__more';
+@import 'blocks/psnow/__text/psnow__text';
+@import 'blocks/psnow/__wrapper/psnow__wrapper';
