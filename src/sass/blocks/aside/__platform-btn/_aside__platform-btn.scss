@@ -1,0 +1,17 @@
+.aside {
+    &__platform-btn {
+        width: 100%;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 16px;
+        letter-spacing: -0.05em;
+        color: #FFFFFF;
+        background-color: transparent;
+        border: none;
+        padding: 4px;
+        border-radius: 3px;
+        text-align: left;
+        margin-bottom: 2px;
+    }
+}

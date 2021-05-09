@@ -78,14 +78,14 @@
     </header>
 
     <main class="main">
-        <section class="new-releases">
+        <section class="new-releases explore__new-releases">
             <div class="container">
 
                 <div class="new-releases__content">
                     
                     <div class="games">
 
-                        <div class="section-caption">
+                        <div class="section-caption explore__section-caption">
                             <h2 class="section-caption__title">New Releases</h2>
                             <button class="section-caption__btn">View All +</button>
                         </div>
@@ -468,7 +468,7 @@
         
                     </div>
 
-                    <aside class="aside">
+                    <aside class="aside explore__aside">
                         <h3 class="aside__title">Filters</h3>
                         <div class="aside__budget">
                             <div class="aside__header">
@@ -476,9 +476,11 @@
                                 <span class="aside__btn">-</span>
                             </div>
                             <div class="aside__content">
-                                <form class="aside__price">
-                                    <input class="aside__price-start" type="text" placeholder="0">
-                                    <input class="aside__price-ends" type="text" placeholder="70">
+                                <form class="aside__form">
+                                    <div class="aside__prices">
+                                        <input class="aside__price aside__price_start" type="text" placeholder="0">
+                                        <input class="aside__price aside__price_ends" type="text" placeholder="70">
+                                    </div>
                                     <input class="aside__price-range" type="range">
                                 </form>
                             </div>
@@ -524,7 +526,7 @@
                         </div>
                         <div class="aside__genres">
                             <div class="aside__header">
-                                <h4 class="aside__name">Features</h4>
+                                <h4 class="aside__name">Genres</h4>
                                 <span class="aside__btn">-</span>
                             </div>
                             <div class="aside__content">

@@ -166,3 +166,34 @@ ul, ol, p {
 // * explore page
 @import 'blocks/new-releases/new-releases';
 @import 'blocks/new-releases/__content/new-releases__content';
+
+@import 'blocks/explore/explore';
+@import 'blocks/explore/__aside/explore__aside';
+@import 'blocks/explore/__section-caption/explore__section-caption';
+@import 'blocks/explore/__new-releases/explore__new-releases';
+
+@import 'blocks/aside/aside';
+@import 'blocks/aside/__btn/aside__btn';
+@import 'blocks/aside/__budget/aside__budget';
+@import 'blocks/aside/__content/aside__content';
+@import 'blocks/aside/__features-item/aside__features-item';
+@import 'blocks/aside/__features-list/aside__features-list';
+@import 'blocks/aside/__features/aside__features';
+@import 'blocks/aside/__form/aside__form';
+@import 'blocks/aside/__genres-item/aside__genres-item';
+@import 'blocks/aside/__genres-list/aside__genres-list';
+@import 'blocks/aside/__genres/aside__genres';
+@import 'blocks/aside/__header/aside__header';
+@import 'blocks/aside/__media-item/aside__media-item';
+@import 'blocks/aside/__media-list/aside__media-list';
+@import 'blocks/aside/__media/aside__media';
+@import 'blocks/aside/__platform-btn/aside__platform-btn';
+@import 'blocks/aside/__platform-btn/_active/aside__platform-btn_active';
+@import 'blocks/aside/__platform/aside__plarform';
+@import 'blocks/aside/__price-range/aside__price-range';
+@import 'blocks/aside/__price/aside__price';
+@import 'blocks/aside/__prices/aside__prices';
+@import 'blocks/aside/__price/_start/aside__price_start';
+@import 'blocks/aside/__price/_ends/aside__price_ends';
+@import 'blocks/aside/__title/aside__title';
+@import 'blocks/aside/__name/aside__name';
