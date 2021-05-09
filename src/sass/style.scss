@@ -18,7 +18,7 @@ ul, ol, p {
     margin: 0 auto;
 }
 
-.new-releases, .coming-soon, .sales, .freetoplay, .collections, .genres {
+.new-releases, .coming-soon, .sales, .freetoplay, .collections, .genres, .more {
     background: #1f1f1f;
 }
 
@@ -130,3 +130,33 @@ ul, ol, p {
 @import 'blocks/psplus/__wrapper/psplus__wrapper';
 @import 'blocks/psplus/__bg/psplus__bg';
 @import 'blocks/psplus/__bg/_cropped/psplus__bg_cropped';
+
+@import 'blocks/collections/collectons';
+@import 'blocks/collections/__wrapper/collectons__wrapper';
+@import 'blocks/collections/__item/collectons__item';
+@import 'blocks/collections/__item/_big/collectons__item_big';
+@import 'blocks/collections/__item-link/collectons__item-link';
+@import 'blocks/collections/__item-img/collectons__item-img';
+
+@import 'blocks/genres/genres';
+@import 'blocks/genres/__wrapper/genres__wrapper';
+@import 'blocks/genres/__item/genres__item';
+@import 'blocks/genres/__link/genres__link';
+@import 'blocks/genres/__name/genres__name';
+
+@import 'blocks/more/more';
+@import 'blocks/more/__wrapper/more__wrapper';
+@import 'blocks/more/__item/more__item';
+@import 'blocks/more/__link/more__link';
+@import 'blocks/more/__name/more__name';
+
+@import 'blocks/footer/footer';
+@import 'blocks/footer/__wrapper/footer__wrapper';
+@import 'blocks/footer/__menu/footer__menu';
+@import 'blocks/footer/__menu-list/footer__menu-list';
+@import 'blocks/footer/__menu-link/footer__menu-link';
+@import 'blocks/footer/__logo/footer__logo';
+@import 'blocks/footer/__copyright/footer__copyright';
+@import 'blocks/footer/__apps/footer__apps';
+@import 'blocks/footer/__apps-list/footer__apps-list';
+@import 'blocks/footer/__apps-link/footer__apps-link';

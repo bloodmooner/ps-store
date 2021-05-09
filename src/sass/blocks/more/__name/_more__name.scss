@@ -1,0 +1,15 @@
+.more {
+    &__name {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate3d(-50%, -50%, 0);
+        font-style: normal;
+        font-weight: bold;
+        font-size: 26px;
+        line-height: 25px;
+        color: #FFFFFF;
+        text-align: center;
+        text-transform: uppercase;
+    }
+}

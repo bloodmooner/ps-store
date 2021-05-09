@@ -1,0 +1,8 @@
+.genres {
+    &__wrapper {
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+        grid-template-rows: repeat(2, minmax(170px, 1fr));
+        grid-gap: 30px;
+    }
+}
