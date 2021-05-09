@@ -1,0 +1,9 @@
+.games {
+    &__wrapper_explore {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        grid-gap: 27px;
+        justify-content: space-between;
+        padding-bottom: 55px;
+    }
+}

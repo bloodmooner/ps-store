@@ -83,6 +83,8 @@ ul, ol, p {
 @import 'blocks/game-badges/_black/game-badges__item_black';
 
 @import 'blocks/games/games';
+@import 'blocks/games/__wrapper/games__wrapper';
+@import 'blocks/games/__wrapper/_explore/games__wrapper_explore';
 @import 'blocks/games/__buy/games__buy';
 @import 'blocks/games/__img/games__img';
 @import 'blocks/games/__item/games__item';
@@ -160,3 +162,7 @@ ul, ol, p {
 @import 'blocks/footer/__apps/footer__apps';
 @import 'blocks/footer/__apps-list/footer__apps-list';
 @import 'blocks/footer/__apps-link/footer__apps-link';
+
+// * explore page
+@import 'blocks/new-releases/new-releases';
+@import 'blocks/new-releases/__content/new-releases__content';
