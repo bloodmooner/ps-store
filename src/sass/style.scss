@@ -18,7 +18,8 @@ ul, ol, p {
     margin: 0 auto;
 }
 
-.new-releases, .coming-soon, .sales, .freetoplay, .collections, .genres, .more {
+.new-releases, .coming-soon, .sales, .freetoplay, .collections, .genres, .more,
+.game-slider, .game-main {
     background: #1f1f1f;
 }
 
@@ -81,6 +82,7 @@ ul, ol, p {
 @import 'blocks/game-badges/__item/game-badges__item';
 @import 'blocks/game-badges/_white/game-badges__item_white';
 @import 'blocks/game-badges/_black/game-badges__item_black';
+@import 'blocks/game-badges/_editions/game-badges__item_editions';
 
 @import 'blocks/games/games';
 @import 'blocks/games/__wrapper/games__wrapper';
@@ -197,3 +199,50 @@ ul, ol, p {
 @import 'blocks/aside/__price/_ends/aside__price_ends';
 @import 'blocks/aside/__title/aside__title';
 @import 'blocks/aside/__name/aside__name';
+
+// * games
+@import 'blocks/game-aside/game-aside';
+@import 'blocks/game-aside/__btn/game-aside__btn';
+@import 'blocks/game-aside/__container/game-aside__container';
+@import 'blocks/game-aside/__gift-img/game-aside__gift-img';
+@import 'blocks/game-aside/__gift-text/game-aside__gift-text';
+@import 'blocks/game-aside/__item/game-aside__item';
+@import 'blocks/game-aside/__text/game-aside__text';
+@import 'blocks/game-aside/__tittle/game-aside__title';
+@import 'blocks/game-aside/__wrapper/game-aside__wrapper';
+
+@import 'blocks/game-header/game-header';
+@import 'blocks/game-header/__container/game-header__container';
+@import 'blocks/game-header/__content/game-header__content';
+@import 'blocks/game-header/__description/game-header__description';
+@import 'blocks/game-header/__logo/game-header__logo';
+@import 'blocks/game-header/__mature-img/game-header__mature-img';
+@import 'blocks/game-header/__mature-text/game-header__mature-text';
+@import 'blocks/game-header/__mature/game-header__mature';
+@import 'blocks/game-header/__name/game-header__name';
+@import 'blocks/game-header/__wrapper/game-header__wrapper';
+
+@import 'blocks/game-about/game-about';
+@import 'blocks/game-about/__about-paragraph/game-about__about-paragraph';
+@import 'blocks/game-about/__about-text/game-about__about-text';
+@import 'blocks/game-about/__about-title/game-about__about-title';
+@import 'blocks/game-about/__editions-buy/game-about__editions-buy';
+@import 'blocks/game-about/__editions-cart/game-about__editions-cart';
+@import 'blocks/game-about/__editions-content/game-about__editions-content';
+@import 'blocks/game-about/__editions-img/game-about__editions-img';
+@import 'blocks/game-about/__editions-item/game-about__editions-item';
+@import 'blocks/game-about/__editions-more/game-about__editions-more';
+@import 'blocks/game-about/__editions-page/game-about__editions-page';
+@import 'blocks/game-about/__editions-price/game-about__editions-price';
+@import 'blocks/game-about/__editions-text/game-about__editions-text';
+@import 'blocks/game-about/__editions-wrapper/game-about__editions-wrapper';
+@import 'blocks/game-about/__features-caption/game-about__features-caption';
+@import 'blocks/game-about/__features-img/game-about__features-img';
+@import 'blocks/game-about/__features-item/game-about__features-item';
+@import 'blocks/game-about/__features-text/game-about__features-text';
+@import 'blocks/game-about/__features-wrapper/game-about__features-wrapper';
+@import 'blocks/game-about/__head/game-about__head';
+@import 'blocks/game-about/__header/game-about__header';
+@import 'blocks/game-about/__item-text/game-about__item-text';
+@import 'blocks/game-about/__item/game-about__item';
+
