@@ -1,0 +1,12 @@
+.game-about {
+    &__item-promo {
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: top center;
+        min-height: 300px;
+        padding: 31px 45px 31px 22px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+}

@@ -1,0 +1,13 @@
+.game-about {
+    &__about-text {
+        font-style: normal;
+        font-weight: 600;
+        font-size: 11px;
+        line-height: 15px;
+        color: #F8F8F8;
+        width: 280px;
+        :last-child {
+            padding-bottom: 0;
+        }
+    }
+}

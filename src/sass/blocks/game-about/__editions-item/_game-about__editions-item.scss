@@ -1,0 +1,9 @@
+.game-about {
+    &__editions-item {
+        border: 1px solid #383838;
+        border-radius: 10px;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 20px;
+    }
+}

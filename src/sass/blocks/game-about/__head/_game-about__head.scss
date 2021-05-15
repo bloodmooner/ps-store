@@ -1,0 +1,9 @@
+.game-about {
+    &__head {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 25px;
+        position: relative;
+    }
+}

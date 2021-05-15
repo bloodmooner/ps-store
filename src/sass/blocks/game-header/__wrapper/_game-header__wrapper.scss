@@ -1,0 +1,10 @@
+.game-header {
+    &__wrapper {
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: top center;
+        width: 100%;
+        height: 900px;
+        position: relative;
+    }
+}

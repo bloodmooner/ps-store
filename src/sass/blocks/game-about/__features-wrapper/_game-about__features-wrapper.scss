@@ -1,0 +1,7 @@
+.game-about {
+    &__features-wrapper {
+        display: grid;
+        grid-template-columns: repeat(3, minmax(270px, 1fr));
+        grid-gap: 30px;
+    }
+}

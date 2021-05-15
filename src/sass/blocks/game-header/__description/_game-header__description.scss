@@ -1,0 +1,7 @@
+.game-header {
+    &__description {
+        display: flex;
+        max-width: 600px;
+        justify-content: space-between;
+    }
+}

@@ -1,0 +1,35 @@
+.slick-center {
+    -webkit-transform: scale(1.25);
+    -moz-transform: scale(1.25);
+    transform: scale(1.25);    
+  }
+  
+  .slick-list { 
+    padding:45px 60px !important;
+    
+  }
+
+.slick-dots {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    li button{
+        width: 10px;
+        height: 10px;
+        background-color: #383838;
+        border: none;
+        border-radius: 100%;
+        font-size: 0;
+        margin: 0 2.5px;
+    }
+    .slick-active button {
+        background-color: #0072CE;;
+    }
+}
+
+
+.game-slider {
+    padding-bottom: 15px;
+    position: relative;
+}
