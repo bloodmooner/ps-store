@@ -206,6 +206,11 @@ button:focus {
 @import 'blocks/aside/__title/aside__title';
 @import 'blocks/aside/__name/aside__name';
 
+@import 'blocks/coockie/coockie';
+@import 'blocks/coockie/__wrapper/coockie__wrapper';
+@import 'blocks/coockie/__text/coockie__text';
+@import 'blocks/coockie/__close/coockie__close';
+
 // * games
 @import 'blocks/game-aside/game-aside';
 @import 'blocks/game-aside/__btn/game-aside__btn';
