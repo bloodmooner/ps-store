@@ -274,4 +274,20 @@ button:focus {
 @import 'blocks/game-slider/__btn/_right/game-slider__btn_right';
 @import 'blocks/game-slider/__content/game-slider__content';
 
+// * login Page
 
+@import 'blocks/login-form/login-form';
+@import 'blocks/login-form/__caption/login-form__caption';
+@import 'blocks/login-form/__container/login-form__container';
+@import 'blocks/login-form/__content/login-form__content';
+@import 'blocks/login-form/__form/login-form__form';
+@import 'blocks/login-form/__id/login-form__id';
+@import 'blocks/login-form/__login/login-form__login';
+@import 'blocks/login-form/__logo/login-form__logo';
+@import 'blocks/login-form/__more/login-form__more';
+@import 'blocks/login-form/__reference/login-form__reference';
+@import 'blocks/login-form/__register/login-form__register';
+@import 'blocks/login-form/__submit/login-form__submit';
+@import 'blocks/login-form/__troubles/login-form__troubles';
+@import 'blocks/login-form/__submit/login-form__submit';
+@import 'blocks/login-form/__wrapper/login-form__wrapper';
