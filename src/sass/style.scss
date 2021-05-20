@@ -282,6 +282,7 @@ button:focus {
 
 // * login Page
 
+
 @import 'blocks/login-form/login-form';
 @import 'blocks/login-form/__caption/login-form__caption';
 @import 'blocks/login-form/__container/login-form__container';
@@ -297,3 +298,118 @@ button:focus {
 @import 'blocks/login-form/__troubles/login-form__troubles';
 @import 'blocks/login-form/__submit/login-form__submit';
 @import 'blocks/login-form/__wrapper/login-form__wrapper';
+
+
+// * playstation 5 Page
+
+@import 'blocks/console-navigation/console-navigation';
+@import 'blocks/console-navigation/__wrapper/console-navigation__wrapper';
+@import 'blocks/console-navigation/__menu/console-navigation__menu';
+@import 'blocks/console-navigation/__menu-list/console-navigation__menu-list';
+@import 'blocks/console-navigation/__menu-item/console-navigation__menu-item';
+@import 'blocks/console-navigation/__menu-item/_active/console-navigation__menu-item_active';
+@import 'blocks/console-navigation/__logo/console-navigation__logo';
+
+@import 'blocks/dualsense/dualsense';
+@import 'blocks/dualsense/__wrapper/dualsense__wrapper';
+@import 'blocks/dualsense/__title/dualsense__title';
+@import 'blocks/dualsense/__text/dualsense__text';
+@import 'blocks/dualsense/__more/dualsense__more';
+@import 'blocks/dualsense/__item/dualsense__item';
+@import 'blocks/dualsense/__image/dualsense__image';
+@import 'blocks/dualsense/__content/dualsense__content';
+@import 'blocks/dualsense/__caption/dualsense__caption';
+@import 'blocks/dualsense/__advantage/dualsense__advantage';
+
+@import 'blocks/play-hnl/play-hnl';
+@import 'blocks/play-hnl/__wrapper/play-hnl__wrapper';
+@import 'blocks/play-hnl/__video/play-hnl__video';
+@import 'blocks/play-hnl/__video-item/play-hnl__video-item';
+@import 'blocks/play-hnl/__video-current/play-hnl__video-current';
+@import 'blocks/play-hnl/__img/play-hnl__img';
+@import 'blocks/play-hnl/__games/play-hnl__games';
+@import 'blocks/play-hnl/__game/play-hnl__game';
+@import 'blocks/play-hnl/__caption/play-hnl__caption';
+@import 'blocks/play-hnl/__caption-title/play-hnl__caption-title';
+@import 'blocks/play-hnl/__caption-text/play-hnl__caption-text';
+@import 'blocks/play-hnl/__caption-heading/play-hnl__caption-heading';
+@import 'blocks/play-hnl/__caption-content/play-hnl__caption-content';
+
+@import 'blocks/plus-collection/plus-collection';
+@import 'blocks/plus-collection/__wrapper/plus-collection__wrapper';
+@import 'blocks/plus-collection/__title/plus-collection__title';
+@import 'blocks/plus-collection/__text/plus-collection__text';
+@import 'blocks/plus-collection/__more/plus-collection__more';
+@import 'blocks/plus-collection/__caption/plus-collection__caption';
+@import 'blocks/plus-collection/__background/plus-collection__background';
+
+@import 'blocks/ps5-consoles/ps5-consoles';
+@import 'blocks/ps5-consoles/__title/ps5-consoles__title';
+@import 'blocks/ps5-consoles/__tabs/ps5-consoles__tabs';
+@import 'blocks/ps5-consoles/__tabs-wrapper/ps5-consoles__tabs-wrapper';
+@import 'blocks/ps5-consoles/__tabs-title/ps5-consoles__tabs-title';
+@import 'blocks/ps5-consoles/__tabs-text/ps5-consoles__tabs-text';
+@import 'blocks/ps5-consoles/__tabs-item/ps5-consoles__tabs-item';
+@import 'blocks/ps5-consoles/__tabs-item/_ps5/ps5-consoles__tabs-item_ps5';
+@import 'blocks/ps5-consoles/__tabs-item/_digital/ps5-consoles__tabs-item_digital';
+@import 'blocks/ps5-consoles/__tabs-image/ps5-consoles__tabs-image';
+@import 'blocks/ps5-consoles/__tabs-heading/ps5-consoles__tabs-heading';
+@import 'blocks/ps5-consoles/__tabs-description/ps5-consoles__tabs-description';
+@import 'blocks/ps5-consoles/__tabs-content/ps5-consoles__tabs-content';
+@import 'blocks/ps5-consoles/__tab/ps5-consoles__tab';
+
+@import 'blocks/ps5-family/ps5-family';
+@import 'blocks/ps5-family/__title/ps5-family__title';
+@import 'blocks/ps5-family/__image/ps5-family__image';
+@import 'blocks/ps5-family/__caption/ps5-family__caption';
+@import 'blocks/ps5-family/__advantages/ps5-family__advantages';
+@import 'blocks/ps5-family/__advantages-title/ps5-family__advantages-title';
+@import 'blocks/ps5-family/__advantages-text/ps5-family__advantages-text';
+@import 'blocks/ps5-family/__advantages-item/ps5-family__advantages-item';
+@import 'blocks/ps5-family/__advantages-img/ps5-family__advantages-img';
+
+@import 'blocks/ps5-gamebox/ps5-gamebox';
+@import 'blocks/ps5-gamebox/__wrapper/ps5-gamebox__wrapper';
+@import 'blocks/ps5-gamebox/__item/ps5-gamebox__item';
+@import 'blocks/ps5-gamebox/__heading/ps5-gamebox__heading';
+@import 'blocks/ps5-gamebox/__game-bg/ps5-gamebox__game-bg';
+@import 'blocks/ps5-gamebox/__descr/ps5-gamebox__descr';
+@import 'blocks/ps5-gamebox/__content/ps5-gamebox__content';
+@import 'blocks/ps5-gamebox/__caption/ps5-gamebox__caption';
+@import 'blocks/ps5-gamebox/__buy/ps5-gamebox__buy';
+
+@import 'blocks/ps5-gamelist/ps5-gamelist';
+@import 'blocks/ps5-gamelist/__wrapper/ps5-gamelist__wrapper';
+@import 'blocks/ps5-gamelist/__title/ps5-gamelist__title';
+@import 'blocks/ps5-gamelist/__link/ps5-gamelist__link';
+@import 'blocks/ps5-gamelist/__item/ps5-gamelist__item';
+@import 'blocks/ps5-gamelist/__item-name/ps5-gamelist__item-name';
+@import 'blocks/ps5-gamelist/__item-icon/ps5-gamelist__item-icon';
+@import 'blocks/ps5-gamelist/__item-content/ps5-gamelist__item-content';
+
+@import 'blocks/ps5-odds/ps5-odds';
+@import 'blocks/ps5-odds/__wrapper/ps5-odds__wrapper';
+@import 'blocks/ps5-odds/__title/ps5-odds__title';
+@import 'blocks/ps5-odds/__text/ps5-odds__text';
+@import 'blocks/ps5-odds/__item/ps5-odds__item';
+@import 'blocks/ps5-odds/__item-title/ps5-odds__item-title';
+@import 'blocks/ps5-odds/__item-text/ps5-odds__item-text';
+@import 'blocks/ps5-odds/__item-img/ps5-odds__item-img';
+@import 'blocks/ps5-odds/__item-content/ps5-odds__item-content';
+@import 'blocks/ps5-odds/__content/ps5-odds__content';
+
+@import 'blocks/ps5-promo/ps5-promo';
+@import 'blocks/ps5-promo/__wrapper/ps5-promo__wrapper';
+@import 'blocks/ps5-promo/__title/ps5-promo__title';
+@import 'blocks/ps5-promo/__logo/ps5-promo__logo';
+@import 'blocks/ps5-promo/__caption/ps5-promo__caption';
+@import 'blocks/ps5-promo/__btn/ps5-promo__btn';
+
+@import 'blocks/streaming/streaming';
+@import 'blocks/streaming/__wrapper/streaming__wrapper';
+@import 'blocks/streaming/__title/streaming__title';
+@import 'blocks/streaming/__item/streaming__item';
+@import 'blocks/streaming/__item-text/streaming__item-text';
+@import 'blocks/streaming/__item-image/streaming__item-image';
+@import 'blocks/streaming/__item-header/streaming__item-header';
+@import 'blocks/streaming/__item-content/streaming__item-content';
