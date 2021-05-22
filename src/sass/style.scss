@@ -28,7 +28,8 @@ button:focus {
 .game-slider, .game-main,
 .login-form,
 .play-hnl,
-.ps5-family {
+.ps5-family,
+.ps5-gamelist {
     background: #1f1f1f;
 }
 
@@ -382,6 +383,7 @@ button:focus {
 @import 'blocks/ps5-gamebox/__descr/ps5-gamebox__descr';
 @import 'blocks/ps5-gamebox/__content/ps5-gamebox__content';
 @import 'blocks/ps5-gamebox/__caption/ps5-gamebox__caption';
+@import 'blocks/ps5-gamebox/__caption-content/ps5-gamebox__caption-content';
 @import 'blocks/ps5-gamebox/__buy/ps5-gamebox__buy';
 
 @import 'blocks/ps5-gamelist/ps5-gamelist';

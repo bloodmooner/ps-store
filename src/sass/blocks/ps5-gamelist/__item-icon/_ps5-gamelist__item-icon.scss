@@ -1,6 +1,10 @@
 .ps5-gamelist {
     &__item-icon {
-        max-width: 125px;
+        max-width: 60px;
         width: 100%;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate3d(-50%, -50%, 0);
     }
 }
