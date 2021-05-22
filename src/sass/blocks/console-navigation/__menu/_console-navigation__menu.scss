@@ -1,0 +1,8 @@
+.console-navigation {
+    &__menu {
+        width: 630px;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}

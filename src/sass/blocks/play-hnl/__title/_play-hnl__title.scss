@@ -1,10 +1,11 @@
 .play-hnl {
-    &__caption-heading {
+    &__title {
         font-style: normal;
         font-weight: 700;
-        font-size: 30px;
+        font-size: 26px;
         line-height: 25px;
         color: #fff;
-        margin-bottom: 10px;
+        text-align: center;
+        padding-top: 34px;
     }
 }

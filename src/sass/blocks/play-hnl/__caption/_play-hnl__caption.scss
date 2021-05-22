@@ -1,0 +1,11 @@
+.play-hnl {
+    &__caption {
+        margin-left: 50px;
+        width: 400px;
+        background-color: transparent;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}

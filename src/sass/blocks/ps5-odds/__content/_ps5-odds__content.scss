@@ -1,0 +1,9 @@
+.ps5-odds {
+    &__content {
+        margin-top: 50px;
+        display: grid;
+        grid-template-columns: repeat(2, minmax(400px, 1fr));
+        grid-gap: 30px;
+        
+    }
+}

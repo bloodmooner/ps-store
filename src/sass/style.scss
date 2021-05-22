@@ -1,5 +1,5 @@
 @import 'libs/bootstrap-reboot.min';
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap');
 
 * {
     font-family: 'Open Sans', sans-serif;
@@ -26,7 +26,9 @@ button:focus {
 
 .new-releases, .coming-soon, .sales, .freetoplay, .collections, .genres, .more,
 .game-slider, .game-main,
-.login-form {
+.login-form,
+.play-hnl,
+.ps5-family {
     background: #1f1f1f;
 }
 
@@ -320,8 +322,10 @@ button:focus {
 @import 'blocks/dualsense/__content/dualsense__content';
 @import 'blocks/dualsense/__caption/dualsense__caption';
 @import 'blocks/dualsense/__advantage/dualsense__advantage';
+@import 'blocks/dualsense/__footer/dualsense__footer';
 
 @import 'blocks/play-hnl/play-hnl';
+@import 'blocks/play-hnl/__title/play-hnl__title';
 @import 'blocks/play-hnl/__wrapper/play-hnl__wrapper';
 @import 'blocks/play-hnl/__video/play-hnl__video';
 @import 'blocks/play-hnl/__video-item/play-hnl__video-item';
@@ -333,6 +337,7 @@ button:focus {
 @import 'blocks/play-hnl/__caption-title/play-hnl__caption-title';
 @import 'blocks/play-hnl/__caption-text/play-hnl__caption-text';
 @import 'blocks/play-hnl/__caption-heading/play-hnl__caption-heading';
+@import 'blocks/play-hnl/__caption-heading/_nl/play-hnl__caption-heading_nl';
 @import 'blocks/play-hnl/__caption-content/play-hnl__caption-content';
 
 @import 'blocks/plus-collection/plus-collection';
@@ -360,6 +365,7 @@ button:focus {
 
 @import 'blocks/ps5-family/ps5-family';
 @import 'blocks/ps5-family/__title/ps5-family__title';
+@import 'blocks/ps5-family/__content/ps5-family__content';
 @import 'blocks/ps5-family/__image/ps5-family__image';
 @import 'blocks/ps5-family/__caption/ps5-family__caption';
 @import 'blocks/ps5-family/__advantages/ps5-family__advantages';
@@ -402,6 +408,7 @@ button:focus {
 @import 'blocks/ps5-promo/__wrapper/ps5-promo__wrapper';
 @import 'blocks/ps5-promo/__title/ps5-promo__title';
 @import 'blocks/ps5-promo/__logo/ps5-promo__logo';
+// TODO: ps5-promo__caption заменить padding-top на внешний контейнер и выровнять по центру (по горизонту)
 @import 'blocks/ps5-promo/__caption/ps5-promo__caption';
 @import 'blocks/ps5-promo/__btn/ps5-promo__btn';
 
