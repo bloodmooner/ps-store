@@ -363,6 +363,8 @@ button:focus {
 @import 'blocks/ps5-consoles/__tabs-description/ps5-consoles__tabs-description';
 @import 'blocks/ps5-consoles/__tabs-content/ps5-consoles__tabs-content';
 @import 'blocks/ps5-consoles/__tab/ps5-consoles__tab';
+@import 'blocks/ps5-consoles/__tab/_active/ps5-consoles__tab_active';
+@import 'blocks/ps5-consoles/__tabs-buy/ps5-consoles__tabs-buy';
 
 @import 'blocks/ps5-family/ps5-family';
 @import 'blocks/ps5-family/__title/ps5-family__title';
@@ -385,6 +387,10 @@ button:focus {
 @import 'blocks/ps5-gamebox/__caption/ps5-gamebox__caption';
 @import 'blocks/ps5-gamebox/__caption-content/ps5-gamebox__caption-content';
 @import 'blocks/ps5-gamebox/__buy/ps5-gamebox__buy';
+@import 'blocks/ps5-gamebox/__heading/_big/ps5-gamebox__heading_big';
+@import 'blocks/ps5-gamebox/__descr/_big/ps5-gamebox__descr_big';
+@import 'blocks/ps5-gamebox/__item/_big/ps5-gamebox__item_big';
+@import 'blocks/ps5-gamebox/__text/ps5-gamebox__text';
 
 @import 'blocks/ps5-gamelist/ps5-gamelist';
 @import 'blocks/ps5-gamelist/__wrapper/ps5-gamelist__wrapper';

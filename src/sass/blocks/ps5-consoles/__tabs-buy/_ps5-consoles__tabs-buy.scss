@@ -1,8 +1,7 @@
-.ps5-gamebox {
-    &__buy {
-        display: inline-block;
+.ps5-consoles {
+    &__tabs-buy {
         background: #0072ce;
-        box-shadow: 0 0 5px #0072ce;
+        box-shadow: 0 0 10px #0072ce;
         border-radius: 5px;
         font-style: normal;
         font-weight: 700;
@@ -12,6 +11,5 @@
         color: #fff;
         border: none;
         padding: 13px;
-        margin-top: 21px;
     }
 }
