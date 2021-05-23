@@ -1,0 +1,17 @@
+.plus-collection {
+    &__more {
+        display: inline-block;
+        background: #0072ce;
+        box-shadow: 0 0 10px #0072ce;
+        border-radius: 5px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 100%;
+        text-align: center;
+        color: #fff;
+        border: none;
+        padding: 13px;
+        margin-top: 20px;
+    }
+}

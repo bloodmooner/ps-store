@@ -2,5 +2,6 @@
     &__background {
         max-width: 900px;
         width: 100%;
+        clip-path: polygon(100% 0%, 100% 54%, 100% 100%, 25% 100%, 0% 50%, 25% 0%);
     }
 }
