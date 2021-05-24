@@ -28,9 +28,17 @@ button:focus {
 .game-slider, .game-main,
 .login-form,
 .play-hnl,
-.ps5-gamelist {
+.ps5-gamelist 
+{
     background: #1f1f1f;
 }
+
+.ps5-family,
+.ps5-consoles,
+.streaming
+ {
+    background: #e6e6e6;
+ }
 
 // TODO: Refactor
 // ! add unit test
@@ -419,6 +427,9 @@ button:focus {
 // TODO: ps5-promo__caption заменить padding-top на внешний контейнер и выровнять по центру (по горизонту)
 @import 'blocks/ps5-promo/__caption/ps5-promo__caption';
 @import 'blocks/ps5-promo/__btn/ps5-promo__btn';
+@import 'blocks/ps5-promo/__caption/_ps5games/ps5-promo__caption_ps5games';
+@import 'blocks/ps5-promo/__title/_ps5games/ps5-promo__title_ps5games';
+@import 'blocks/ps5-promo/__subtitle/ps5-promo__subtitle';
 
 @import 'blocks/streaming/streaming';
 @import 'blocks/streaming/__wrapper/streaming__wrapper';
@@ -428,3 +439,15 @@ button:focus {
 @import 'blocks/streaming/__item-image/streaming__item-image';
 @import 'blocks/streaming/__item-header/streaming__item-header';
 @import 'blocks/streaming/__item-content/streaming__item-content';
+
+// * playstation 5 games Page
+
+@import 'blocks/ps5-exclusives/ps5-exclusives';
+@import 'blocks/ps5-exclusives/__wrapper/ps5-exclusives__wrapper';
+@import 'blocks/ps5-exclusives/__text/ps5-exclusives__text';
+@import 'blocks/ps5-exclusives/__item/ps5-exclusives__item';
+@import 'blocks/ps5-exclusives/__image/ps5-exclusives__image';
+@import 'blocks/ps5-exclusives/__heading/ps5-exclusives__heading';
+@import 'blocks/ps5-exclusives/__description/ps5-exclusives__description';
+@import 'blocks/ps5-exclusives/__content/ps5-exclusives__content';
+@import 'blocks/ps5-exclusives/__container/ps5-exclusives__container';
