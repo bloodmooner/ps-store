@@ -1,7 +1,7 @@
 .ps5-exclusives {
     &__wrapper {
         display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: repeat(3, 600px);
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(4, 500px);
     }
 }

@@ -1,0 +1,10 @@
+.ps5-games {
+    &__wrapper {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        //justify-content: space-between;
+        grid-gap: 30px;
+        padding-bottom: 34px;
+
+    }
+}

@@ -28,7 +28,9 @@ button:focus {
 .game-slider, .game-main,
 .login-form,
 .play-hnl,
-.ps5-gamelist 
+.ps5-gamelist,
+.ps5-games,
+.ps5-catalog
 {
     background: #1f1f1f;
 }
@@ -112,6 +114,16 @@ button:focus {
 @import 'blocks/games/__info/games__info';
 @import 'blocks/games/__badges/games__badges';
 @import 'blocks/games/__discount/games__discount';
+
+@import 'blocks/games/__wrapper/_ps5-catalog/games__wrapper_ps5-catalog';
+@import 'blocks/games/__img/__ps5-catalog/games__img_ps5-catalog';
+@import 'blocks/games/__launch/games__launch';
+@import 'blocks/games/__launch-date/games__launch-date';
+@import 'blocks/games/__description/games__description';
+@import 'blocks/games/__name/_ps5-catalog/games__name_ps5-catalog';
+@import 'blocks/games/__publisher/_ps5-catalog/games__publisher_ps5-catalog';
+@import 'blocks/games/__buy/_ps5-catalog/games__buy_ps5-catalog';
+
 
 @import 'blocks/psnow/psnow';
 @import 'blocks/psnow/__caption/psnow__caption';
@@ -451,3 +463,18 @@ button:focus {
 @import 'blocks/ps5-exclusives/__description/ps5-exclusives__description';
 @import 'blocks/ps5-exclusives/__content/ps5-exclusives__content';
 @import 'blocks/ps5-exclusives/__container/ps5-exclusives__container';
+@import 'blocks/ps5-exclusives/__more/ps5-exclusives__more';
+@import 'blocks/ps5-exclusives/__main/ps5-exclusives__main';
+@import 'blocks/ps5-exclusives/__content/_full/ps5-exclusives__content_full';
+@import 'blocks/ps5-exclusives/__text/_full/ps5-exclusives__text_full';
+
+@import 'blocks/ps5-games/ps5-games';
+@import 'blocks/ps5-games/__wrapper/ps5-games__wrapper';
+@import 'blocks/ps5-games/__title/ps5-games__title';
+@import 'blocks/ps5-games/__text/ps5-games__text';
+@import 'blocks/ps5-games/__more/ps5-games__more';
+@import 'blocks/ps5-games/__item/ps5-games__item';
+@import 'blocks/ps5-games/__image/ps5-games__image';
+@import 'blocks/ps5-games/__heading/ps5-games__heading';
+@import 'blocks/ps5-games/__caption/ps5-games__caption';
+@import 'blocks/ps5-games/__content/ps5-games__content';
